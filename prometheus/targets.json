@@ -1,0 +1,29 @@
+[
+  {
+    "labels": {
+      "job": "greeter",
+      "nodeID": "greeter-19"
+    },
+    "targets": [
+      "greeter:3030"
+    ]
+  },
+  {
+    "labels": {
+      "job": "replica",
+      "nodeID": "replica-19"
+    },
+    "targets": [
+      "replica:3030"
+    ]
+  },
+  {
+    "labels": {
+      "job": "api",
+      "nodeID": "api-18"
+    },
+    "targets": [
+      "api:3030"
+    ]
+  }
+]
